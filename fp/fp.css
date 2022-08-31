@@ -10,8 +10,10 @@ body{
    
 }
 
-.lada{
-    margin: auto;
+.abox{
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 700px;
 }
 
 .box1{
@@ -27,7 +29,7 @@ body{
 
 .box2{
     position: absolute;
-
+    
     top:610px;
     background-color: beige;
     height: 200px;
@@ -43,15 +45,16 @@ body{
     background-color: beige;
     height:200px;
     width: 320px;
+    border-radius: 10px;
     box-shadow: rgb(80, 72, 63) 5px 8px 5px;
 }
 
 .box4{
     position:absolute;
-    
     top:190px;
     background-color: beige;
     height:200px;
     width: 320px;
+    border-radius: 10px;
     box-shadow: rgb(80, 72, 63) 5px 8px 5px;
 }
