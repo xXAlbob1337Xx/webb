@@ -10,51 +10,82 @@ body{
    
 }
 
-.abox{
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+#tid {
+    position:absolute;
+    text-align: center;
+    font-size: 190px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+#manad{
+    text-align: right;
+    font-size: 50px;
+    top: 450px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+#veckor{
+    text-align: center;
+    font-size: 190px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+#veckodag{
+    text-align: center;
+    font-size: 50px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+#dagnr{
     position: absolute;
-    margin-left: 700px;
-    margin-top: 700px;
+    top: 100px;
 }
 
 .box1{
     position: relative;
-
-    top:400px;
-    background-color: beige;
-    height: 200px;
-    width: 655px;
+    top:200px;
+    height: auto;
+    width: 800px;
     border-radius: 10px;
-   box-shadow: rgb(80, 72, 63) 5px 8px 5px;
+    background-color: beige;
+    box-shadow: inset -5px -5px 10px 0px rgba(255, 255, 255, 0.5), inset 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
 }
 
 .box2{
     position: absolute;
-    
-    top:610px;
-    background-color: beige;
-    height: 200px;
-    width: 655px;
-    border-radius: 10px;
-    box-shadow: rgb(80, 72, 63) 5px 8px 5px;
-}
-
-.box3{
-    position:absolute;
-
-    top:190px;
-    background-color: beige;
-    height:200px;
+    left: 560px;
+    top:430px;
+    background-color: red;
+    height: auto;
     width: 320px;
-    border-radius: 10px;
-    box-shadow: rgb(80, 72, 63) 5px 8px 5px;
 }
+
+
 
 .box4{
     position:absolute;
-    top:190px;
+    top:650px;
+    left:800px;
     background-color: beige;
     height:200px;
     width: 320px;
     border-radius: 10px;
-    box-shadow: rgb(80, 72, 63) 5px 8px 5px;
+    box-shadow: inset -5px -5px 10px 0px rgba(255, 255, 255, 0.5), inset 5px 5px 10px 0px rgba(0, 0, 0, 0.3);
 }
+
+
+
+.box5{
+    position:absolute;
+    height: 200px;
+    width:800px;
+    top: 430px;
+    background-color: beige ;
+}
+
+
