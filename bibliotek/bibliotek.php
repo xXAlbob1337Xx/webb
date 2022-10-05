@@ -22,7 +22,7 @@
     <form method="post" action="biblotek2.php">  
         <input type="hidden" name="Film">
         <input type="text" id="Film" name="Låna" max="100" placeholder="Lägga till bok?" required="required">
-        <input type="submit">
+        <input type="submkit">
     </form>   -->
 </body>
 </html>
